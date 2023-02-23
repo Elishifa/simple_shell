@@ -1,2 +1,2 @@
-This is an ALX collaboration project on Shell
+This is an ALX collaboration project
 
