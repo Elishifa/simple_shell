@@ -8,10 +8,9 @@
  */
 int main(int ac, char **av)
 {
-	info_t info[];
+	info_t info[] = { INFO_INIT };
 	int fd;
 
-	info[] = { INFO_INIT };
 	fd = 2;
 
 	asm ("mov %1, %0\n\t"
